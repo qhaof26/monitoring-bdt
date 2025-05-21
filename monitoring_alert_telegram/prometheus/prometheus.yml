@@ -19,5 +19,5 @@ scrape_configs:
   - job_name: "node_exporter"
     static_configs:
       - targets:
-          - '150.107.3.39'
-          - '199.241.138.43'
+          - '150.107.3.39:9100'
+          - '199.241.138.43:9100'
